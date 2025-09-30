@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAF8EF"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvGuideTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hướng dẫn chơi"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#776E65"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvGuideContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cách chơi 2048:\n\n- Vuốt các ô số theo các hướng để di chuyển chúng.\n- Khi hai ô cùng số chạm nhau, chúng sẽ cộng lại thành một ô có giá trị gấp đôi.\n- Mục tiêu là tạo ra ô s�� 2048.\n- Sử dụng nút Hoàn lại để quay lại bước trước nếu đi sai.\n- Nhấn Chơi lại để bắt đầu ván mới.\n- Chúc bạn chơi vui vẻ và đạt đi��m cao!"
+        android:textSize="18sp"
+        android:textColor="#8F7A66"
+        android:background="#FFF8DC"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại màn hình chính"
+        android:background="#BBADA0"
+        android:textColor="#776E65" />
+
+</LinearLayout>

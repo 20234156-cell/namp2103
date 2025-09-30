@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAF8EF"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvSettingsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cài đặt"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#776E65"
+        android:layout_marginBottom="24dp" />
+
+    <CheckBox
+        android:id="@+id/cbSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bật âm thanh"
+        android:textColor="#776E65"
+        android:layout_marginBottom="16dp" />
+
+    <CheckBox
+        android:id="@+id/cbVibration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bật rung"
+        android:textColor="#776E65"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kích thước bản đồ"
+        android:textColor="#776E65"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+    <RadioGroup
+        android:id="@+id/rgMapSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/rbMap3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3x3" />
+        <RadioButton android:id="@+id/rbMap4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4x4" />
+        <RadioButton android:id="@+id/rbMap5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5x5" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chế độ màu"
+        android:textColor="#776E65"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+    <RadioGroup
+        android:id="@+id/rgColorMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/rbColor1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Màu 1" />
+        <RadioButton android:id="@+id/rbColor2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Màu 2" />
+        <RadioButton android:id="@+id/rbColor3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Màu 3" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chế độ chơi"
+        android:textColor="#776E65"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+    <RadioGroup
+        android:id="@+id/rgDifficulty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/rbEasy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dễ" />
+        <RadioButton android:id="@+id/rbHard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Khó" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnBackToMenuSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại menu"
+        android:background="#CDC1B4"
+        android:textColor="#776E65"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

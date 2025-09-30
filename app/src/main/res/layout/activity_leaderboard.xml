@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FAF8EF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvLeaderboardTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bảng xếp hạng"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#776E65"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:scrollbars="horizontal">
+        <TableLayout
+            android:id="@+id/tableLeaderboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1,2,3,4,5,6,7"
+            android:background="#EEE4DA">
+            <TableRow>
+                <TextView android:text="STT" android:textStyle="bold" android:gravity="center" android:textColor="#776E65" android:padding="8dp" android:minWidth="80dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:minWidth="120dp"
+                    android:padding="8dp"
+                    android:text="Tên"
+                    android:textColor="#776E65"
+                    android:textStyle="bold" />
+
+                <TextView android:text="Điểm" android:textStyle="bold" android:gravity="center" android:textColor="#776E65" android:padding="8dp" android:minWidth="80dp" />
+
+                <TextView
+                    android:gravity="center"
+                    android:minWidth="100dp"
+                    android:padding="8dp"
+                    android:text="Thời gian"
+                    android:textColor="#776E65"
+                    android:textStyle="bold" />
+
+                <TextView android:text="Map" android:textStyle="bold" android:gravity="center" android:textColor="#776E65" android:padding="8dp" android:minWidth="80dp" />
+                <TextView android:text="Màu" android:textStyle="bold" android:gravity="center" android:textColor="#776E65" android:padding="8dp" android:minWidth="80dp" />
+                <TextView android:text="Chế độ" android:textStyle="bold" android:gravity="center" android:textColor="#776E65" android:padding="8dp" android:minWidth="100dp" />
+                <TextView android:text="Hạng" android:textStyle="bold" android:gravity="center" android:textColor="#776E65" android:padding="8dp" android:minWidth="80dp" />
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btnBackToMenuLeaderboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quay lại"
+        android:background="#CDC1B4"
+        android:textColor="#776E65"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
