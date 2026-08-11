@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAF8EF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvPlayerName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player_label"
+        android:textSize="18sp"
+        android:textColor="#8F7A66"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvGameTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/game_title"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#776E65"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score_label"
+        android:textSize="18sp"
+        android:textColor="#8F7A66"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timer_label"
+        android:textSize="16sp"
+        android:textColor="#8F7A66"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvMapInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="#776E65"
+        android:layout_marginBottom="8dp" />
+
+    <GridLayout
+        android:id="@+id/gridGame"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:rowCount="4"
+        android:columnCount="4"
+        android:background="#BBADA0"
+        android:layout_marginBottom="24dp">
+        <!-- Cells will be added programmatically -->
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="8dp">
+        <Button
+            android:id="@+id/btnUndo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/undo"
+            android:background="#BBADA0"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp" />
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/restart"
+            android:background="#8F7A66"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBackToMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/back_to_menu"
+        android:background="#CDC1B4"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

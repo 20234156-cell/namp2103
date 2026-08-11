@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FAF8EF"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvMainTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2048"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#776E65"
+        android:layout_marginBottom="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="24dp"
+        android:elevation="2dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:backgroundTint="#FFFFFF"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:radius="16dp">
+
+        <Button
+            android:id="@+id/btnPlayGame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chơi game"
+            android:background="#BBADA0"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#BBADA0"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnLeaderboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bảng xếp hạng"
+            android:background="#EEE4DA"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#EEE4DA"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnSettings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cài đặt"
+            android:background="#F2B179"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#F2B179"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đăng xuất"
+            android:background="#EDC22E"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#EDC22E"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:padding="12dp" />
+
+        <Button
+            android:id="@+id/btnGuide"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hướng dẫn"
+            android:background="#EEE4DA"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="#EEE4DA"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"
+            android:padding="12dp" />
+    </LinearLayout>
+
+</LinearLayout>

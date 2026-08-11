@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">game8386</string>
+    <string name="player_name">Người chơi: %1$s</string>
+    <string name="map_info">Bản đồ: %1$dx%2$d | Màu: %3$d | Chế độ: %4$s</string>
+    <string name="easy">Dễ</string>
+    <string name="hard">Khó</string>
+    <string name="score">Điểm số: %1$d</string>
+    <string name="timer">Thời gian: %1$02d:%2$02d</string>
+    <string name="player_label">Người chơi: </string>
+    <string name="game_title">2048</string>
+    <string name="score_label">Điểm số: 0</string>
+    <string name="timer_label">Thời gian: 00:00</string>
+    <string name="undo">Hoàn lại</string>
+    <string name="restart">Chơi lại</string>
+    <string name="back_to_menu">Quay lại menu</string>
+</resources>
