@@ -16,7 +16,7 @@ public class Bai2 extends JFrame {
 
         JPanel row1 = new JPanel();
         row1.add(new JLabel("Số thứ nhất:"));
-        textField1 = new JTextField(15);
+        textField1 = new JTextField(20);
         row1.add(textField1);
 
         JPanel row2 = new JPanel();
